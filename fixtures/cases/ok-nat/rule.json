@@ -1,0 +1,12 @@
+{
+  "table": "ip nat",
+  "chain": "prerouting",
+  "set": "",
+  "elem": "",
+  "action": "accept",
+  "priority": 10,
+  "nonce": "n-ok-nat",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "gJD6Z5PrlpLOTTiRkRXdM6mVX4cXsPq42VeS6YMbl3I"
+}

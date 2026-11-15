@@ -1,0 +1,38 @@
+{
+  "allowed_tables": [
+    "inet filter",
+    "ip nat"
+  ],
+  "allowed_chains": {
+    "inet filter": [
+      "input",
+      "forward"
+    ],
+    "ip nat": [
+      "prerouting"
+    ]
+  },
+  "sets": {
+    "inet filter": {
+      "allow4": [
+        "203.0.113.0/24",
+        "198.51.100.10"
+      ],
+      "deny4": [
+        "0.0.0.0/0"
+      ]
+    }
+  },
+  "allowed_actions": [
+    "accept",
+    "drop"
+  ],
+  "priority_min": -100,
+  "priority_max": 100,
+  "elem_deny_substrings": [
+    "*",
+    ".."
+  ],
+  "clock_skew_seconds": 60,
+  "max_age_seconds": 600
+}

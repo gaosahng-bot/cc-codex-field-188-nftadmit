@@ -1,0 +1,12 @@
+{
+  "table": "inet filter",
+  "chain": "input",
+  "set": "allow4",
+  "elem": "*",
+  "action": "accept",
+  "priority": 0,
+  "nonce": "n-deny-glob",
+  "iat": 1781783975,
+  "kid": "k-active",
+  "sig": "6Bfz1347UzQ2_fUbvSj8vf7bT5OUCF7coVUGe3dPq60"
+}
